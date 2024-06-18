@@ -1,0 +1,113 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color:  #090909e7;
+}
+
+footer {
+    margin-top: -240px;
+    padding-top: 100px;
+    padding-left: 900px;
+    background-color: #090909e7;
+    height: 150px;
+    clear: both;
+}
+
+.sandwichGeneral {
+    background-image: url('../src/images/sandwich.jpg') ;
+    background-size: 100%;
+    width: 100%;
+    height: 1500px;
+    background-repeat: no-repeat;
+}
+
+.libraryGeneral {
+    background-image: url('../src/images/books.jpg') ;
+    background-size: 100%;
+    width: 100%;
+    height: 1500px;
+    background-repeat: no-repeat;
+}
+
+.counterGeneral {
+    background-image: url('../src/images/counter.jpg') ;
+    background-size: 100%;
+    width: 100%;
+    height: 1500px;
+    background-repeat: no-repeat;
+}
+
+.counterDiv {
+    padding: 100px;
+    margin-left: 100px;
+    width: 1000px;
+    background-color: #b8b8b5c7;
+}
+
+.counter {
+    margin-bottom: 60px;
+    color: black;
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.libraryDiv {
+    padding: 100px;
+    margin-left: 100px;
+    width: 1000px;
+    background-color: #b8b8b540;
+}
+
+.libraryComponent {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.bookCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.book {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.bookData {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.bookEditMenu {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sandwichDiv {
+    padding: 100px;
+    margin-left: 100px;
+    width: 1000px;
+    background-color: #b8b8b537;
+}
+
+.sandwich {
+    margin-bottom: 60px;
+    color: black;
+    font-weight: bolder;
+    font-size: 40px;
+}
